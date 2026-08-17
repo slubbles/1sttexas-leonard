@@ -1,0 +1,46 @@
+// Tiki Island homes for rent — scraped from 1sttexasrealtors.com (IDX Broker) on 2026-08-15.
+
+import type { Listing } from "./listing-type"
+
+export const tikiislandRentListings: Listing[] = [
+  {
+    mls: '74611896',
+    address: '336 Admiral Circle',
+    city: 'Tiki Island',
+    state: 'Texas',
+    zip: '77554',
+    price: '$3,900',
+    beds: '3 Bedrooms',
+    baths: '2 Total Baths',
+    sqft: '',
+    acres: '',
+    yearBuilt: '1987',
+    subdivision: 'Tiki Yacht Club Colony',
+    county: 'Galveston',
+    remarks: 'Amazing single story Tiki home with 3 bedrooms and ...',
+    status: 'Active',
+    photo: '/assets/rentals/tiki-island/74611896.jpg',
+    lat: 29.2970436,
+    lon: -94.9174528,
+  },
+  {
+    mls: '91388359',
+    address: '115 Bamaku Bend',
+    city: 'Tiki Island',
+    state: 'Texas',
+    zip: '77554',
+    price: '$6,000',
+    beds: '4 Bedrooms',
+    baths: '4 Total Baths',
+    sqft: '',
+    acres: '',
+    yearBuilt: '1982',
+    subdivision: 'Tiki Island',
+    county: 'Galveston',
+    remarks: 'A Tiki Canal ONE STORY WITH ELEVATOR is tucked on ...',
+    status: 'Active',
+    photo: '/assets/rentals/tiki-island/91388359.jpg',
+    lat: 29.2970436,
+    lon: -94.9174528,
+  },
+]
